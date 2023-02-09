@@ -1,20 +1,20 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    font-family: "Segoe",sans-serif;
+    font-family: "Segoe", sans-serif;
 }
 
-.container{
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
 }
-.content{
+.content {
     max-width: 945px;
     margin-top: 65px;
-    background: #F6F6F6;
+    background: #f6f6f6;
     height: 297px;
     display: flex;
     justify-content: center;
@@ -22,29 +22,29 @@ body{
     padding-left: 70px;
     padding-right: 70px;
 }
-.titleQuestion{
+.titleQuestion {
     color: #383838;
     max-width: 787px;
-    font-family: "Segoe bold",sans-serif;
+    font-family: "Segoe bold", sans-serif;
 }
-.answer{
-    border-bottom: 1px solid #D4D4D4;
-    border-top: 1px solid #D4D4D4;
+.answer {
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
     font-size: 15px;
     max-width: 945px;
     margin-top: 67px;
     margin-bottom: 100px;
     padding-bottom: 20px;
 }
-.listQuestionTitle{
+.listQuestionTitle {
     font-size: 24px;
     color: #383838;
     font-weight: 600;
     width: 90%;
     margin-top: 0;
-    font-family: "Segoe",sans-serif;
+    font-family: "Segoe", sans-serif;
 }
-.numberBlack{
+.numberBlack {
     background: black;
     color: white;
     width: 15px;
@@ -57,19 +57,19 @@ body{
     margin-top: 0;
     margin-bottom: 20px;
 }
-.titleAnswer{
+.titleAnswer {
     display: flex;
     width: 100%;
     min-width: 945px;
     padding-top: 20px;
     align-items: center;
 }
-.subAnswerP{
+.subAnswerP {
     padding-left: 30px;
     color: #383838;
     font-size: 18px;
     line-height: 26px;
-    font-family: "Segoe",sans-serif;
+    font-family: "Segoe", sans-serif;
     list-style-type: none;
 }
 @font-face {

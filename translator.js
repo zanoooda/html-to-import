@@ -35,10 +35,6 @@ TV_FAQ_eng.forEach((item, index) => {
            ${subAnswer.replace(new RegExp("\n", 'g'), "<br />")}
        </li>
    </div>
-
-
-<script src="details.js">
-
 </script>
 </body>
 </html>

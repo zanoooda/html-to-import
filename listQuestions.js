@@ -9,6 +9,11 @@ const getQuestion = async () => {
 };
 getQuestion().then(() =>
     array[0].map((item, index) => {
+        if (item.answer.replace(/(\r\n|\n|\r)/gm, "").trim() == "" || item.question.replace(/(\r\n|\n|\r)/gm, "").trim() == "") {
+            console.log(`[${index + 1}] item.answer: ${item.answer}`);
+            console.log(`[${index + 1}] item.question: ${item.question}`);
+            return
+        } 
         let div = document.createElement("a");
         div.href = `./detailsQuestion${index + 1}.html`;
         div.classList.add("textQuestion");

@@ -3,6 +3,9 @@ const fs = require("fs");
 var TV_FAQ_eng = require("./TV_FAQ_eng.json");
 
 TV_FAQ_eng.forEach((item, index) => {
+    if (item.answer.replace(/(\r\n|\n|\r)/gm, "").trim() == "" || item.question.replace(/(\r\n|\n|\r)/gm, "").trim() == "") {
+        return
+    } 
     console.log(item.question);
     console.log(item.answer);
 

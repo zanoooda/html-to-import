@@ -4,6 +4,8 @@ body {
     width: 100%;
     align-items: center;
     font-family: "Segoe", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -71,6 +73,39 @@ body {
     line-height: 26px;
     font-family: "Segoe", sans-serif;
     list-style-type: none;
+}
+@media screen and (max-width: 945px) {
+    .content {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .answer {
+        border-bottom: 1px solid #d4d4d4;
+        border-top: 1px solid #d4d4d4;
+        font-size: 15px;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+    .titleAnswer {
+        display: flex;
+        width: 100%;
+        min-width: 0;
+        padding-top: 20px;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .subAnswerP {
+        padding-left: 10px;
+    }
+
 }
 @font-face {
     font-family: "Segoe";
